@@ -1,10 +1,11 @@
-import {useState} from "react";
+import { useState } from "react";
 import './App.css';
 
 function MultiplyNumberForm() {
   const [numberOne, setNumberOne] = useState(0)
   const [numberTwo, setNumberTwo] = useState(0)
   const [multiplyResult, setMultiplyResult] = useState(0)
+
   const multiplyNumbers = () => {
     let result = 0
 
